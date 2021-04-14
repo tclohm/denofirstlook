@@ -18,3 +18,7 @@ __dirname, not in deno
 Deno.cwd()
 
 deno run --allow-read <file>
+
+format, kind of like prettier
+
+deno fmt app.t
