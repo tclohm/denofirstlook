@@ -8,3 +8,7 @@ no process object in deno
 no args
 
 Deno.args
+
+no more environmental variables, need to know what you want from the Deno Object
+
+DEVELOPMENT=true deno run --allow-env <file>
