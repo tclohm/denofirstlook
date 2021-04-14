@@ -1,0 +1,7 @@
+Deno would like you to think like a browser
+
+link packages using links or scripts
+
+caching, handles dependencies using urls
+
+deno info
