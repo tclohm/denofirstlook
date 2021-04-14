@@ -3,3 +3,8 @@ packages are moved somewhere else, no more node_modules in the project
 Deno object
 
 Deno. --- operations found on this Deno Object
+
+no process object in deno
+no args
+
+Deno.args
