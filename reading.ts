@@ -3,6 +3,8 @@ const desc = { name: "read", path: "../" } as const;
 
 const status = await Deno.permissions.request(desc);
 
+console.log(await Deno.permissions.query(desc));
+
 if (status.state === "granted") {
 
 	const results = await Deno.readDir('../');
