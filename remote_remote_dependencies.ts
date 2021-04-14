@@ -1,5 +1,7 @@
 // Deno has verified third party modules for safety
 
-import * as path from "https://deno.land/std@0.73.0/path/mod.ts";
+// deno info <file>, to get more info on the file and get a dependency graph
+
+import { path } from "./deps.ts";
 
 console.log(path.basename("/folder/folder/folder/file.txt"));
