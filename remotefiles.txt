@@ -22,3 +22,11 @@ deno run --allow-read <file>
 format, kind of like prettier
 
 deno fmt app.t
+
+FLAGS BEFORE THE FILE NAME
+
+watcher
+
+deno run --watch <file>
+
+deno run --watch --unstable <file>
