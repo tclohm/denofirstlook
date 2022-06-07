@@ -1,3 +1,3 @@
-console.log(Deno.env.get("DEVELOPMENT"));
+console.log('print', Deno.env.get("DEVELOPMENT"));
 
 export { };
